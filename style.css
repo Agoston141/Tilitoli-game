@@ -1,0 +1,19 @@
+header{
+    text-align: center;
+    font-size: x-large;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: fixed;
+}
+a{
+    text-decoration: none;
+    color: black;
+    border-radius: 10%;
+    background-color: blanchedalmond;
+    padding: .5rem;
+    font-size: large;
+}
