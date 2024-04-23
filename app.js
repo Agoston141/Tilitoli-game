@@ -4,7 +4,7 @@ for (let i = 0; i < 4; i++) {
         let gridItem = document.createElement('div');
         gridItem.className = 'box';
         gridItem.textContent = '1';
-        gridItem.
+        gridItem.id
         container.appendChild(gridItem);
 
     }
