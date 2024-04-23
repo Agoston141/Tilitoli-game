@@ -1,11 +1,5 @@
 const container = document.querySelector(".container")
-for (let i = 0; i < 4; i++) {
-    for (let j = 0; j < 4; j++) {
-        let gridItem = document.createElement('div');
-        gridItem.className = 'box';
-        gridItem.textContent = '1';
-        gridItem.id
-        container.appendChild(gridItem);
-
-    }
-  }
+for (let i = 1; i < 16; i++) {
+    let rn=Math.floor(Math.random()*15)
+        container.innerHTML+=`<div class="box" id="${rn}">${rn}</div>`
+  } 
