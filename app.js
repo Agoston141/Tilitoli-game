@@ -5,4 +5,18 @@ for (let i = 1; i < 16; i++) {
   } 
 
 const boxes = document.querySelectorAll(".box")
-boxes.forEach
+const upButton=document.querySelector(".up")
+const downButton=document.querySelector(".down")
+const leftButton=document.querySelector(".left")
+const rightButton=document.querySelector(".right")
+
+let boxid
+boxes.forEach(box=>{
+    box.addEventListener("click",(event)=>{
+        boxid = event.target.id
+    })
+})
+
+upButton.addEventListener("click", (event) => {
+    
+});
