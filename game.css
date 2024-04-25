@@ -134,25 +134,29 @@ body{
     
     
 }
-.container{ 
+.NormalBoxes{ 
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
     gap: 1px; 
-    width: 50px;
-    justify-content: center;
+    width: 80px;
+
     
 }
 .box{
     background-color: #ccc;
     border: 1px solid black;
-    height: 50px;
-    width: 50px;
+    height: 80px;
+    width: 80px;
     text-align: center;
     line-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .Buttons{
     justify-content: center;
     align-items: center;
     text-align: center;
+    
 }
