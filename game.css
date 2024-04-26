@@ -8,18 +8,20 @@
     stroke-width: 3px;
     stroke-dashoffset: 0%;
     animation: stroke-offset 5.5s infinite linear;
-    margin-top: 0;
-    top: 0;
+    margin-top: -10vh;
+    
+    
     
 }
 .logo-container {
 	position: relative;
-    margin-bottom: -0.8vh;
+    
+    height: 50vh;
    
 	&:before {
 		content:  "";
 		position: absolute;
-		top:      calc( 100% - 2px );
+		top:      calc( 100% - 12vh );
 		width:    100%;
 		height:   4px;
 		background-color: #cf0000;
@@ -35,9 +37,12 @@
 		animation: clip-path-reveal-1 3s ease forwards;
 	}
 }
+
+
 .text-copy:nth-child(1){
 	stroke: #4D163D;
 	animation-delay: -1;
+  
 }
 
 .text-copy:nth-child(2){
@@ -141,10 +146,23 @@ body{
     gap: 1px; 
     width: 50px;
     justify-content: center;
+    color: rgb(255, 255, 255);
+    font-family: "Jersey 25", sans-serif !important;
+    font-weight: 100;
+    font-weight: bold;
+    font-size: 4vh !important;
+    top: 0;
+    
     
 }
+main{
+  margin-top: 15vh;
+}
+#_{
+    background-color: white;
+}
 .box,.boxEmpty{
-    background-color: #ccc;
+    background-color: #149ebdb0;
     border: 1px solid black;
     height: 80px;
     width: 80px;
@@ -153,6 +171,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 
 }
 .Buttons{ 
