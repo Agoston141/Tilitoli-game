@@ -184,10 +184,7 @@ main{
     margin-top: -34vh;
     margin-left: 15vh;
 }
-.Buttons, a{
-    text-decoration: none;
 
-}
 /*vissza button*/
 
 .button {
@@ -287,3 +284,29 @@ main{
     opacity: 1;
   }
 
+
+  .shuffle {
+    font-family: sans-serif;
+    text-decoration: none;
+    border-radius: 1000px;
+    border: 1px solid #5846ff;
+    height: 10vh;
+    width: 10vh;
+    transition: all cubic-bezier(0.31, -0.105, 0.43, 1.4) 0.2s;
+    background-color: #6252f9;
+    margin-left: 40vh;
+    margin-top: -80vh;
+    font-size: 5vh;
+    
+  }
+  .shuffle:hover {
+    width: 135px;
+  }
+  .shuffle:hover .btn-stage:first-child {
+    opacity: 0;
+  }
+  .shuffle:hover .btn-stage:nth-child(n+2) {
+    opacity: 1;
+    transition: opacity linear calc(0.2s + 0.05s);
+  }
+  
