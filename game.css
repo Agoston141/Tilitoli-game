@@ -329,7 +329,7 @@ main{
     color: white;
     background: #222;
     border-radius: var(--border-width);
-    margin-left: 80vh;
+    margin-left: 85vh;
   }
   .gradient-border::after {
     position: absolute;
