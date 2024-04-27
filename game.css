@@ -354,8 +354,19 @@ main{
 
   @media only screen and (max-width: 1440px) {
     .gradient-border {
-      width: 43.5vh;
-      height: 43.5vh;
-      margin-left: 75vh;
+      width: 36vh;
+      height: 36vh;
+      margin-left: 63vh;
     }
+}
+@media only screen and (max-width: 1280px) {
+  .gradient-border {
+    width: 31.5vh;
+    height: 31.5vh;
+    margin-left: 50vh;
+    
+  }
+  .logo-container{
+    margin: auto;
+  }
 }
