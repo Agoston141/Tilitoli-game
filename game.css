@@ -286,16 +286,17 @@ main{
 
 
   .shuffle {
+    position: absolute;
     font-family: sans-serif;
     text-decoration: none;
     border-radius: 1000px;
     border: 1px solid #5846ff;
-    height: 10vh;
+    height: 8vh;
     width: 10vh;
     transition: all cubic-bezier(0.31, -0.105, 0.43, 1.4) 0.2s;
     background-color: #6252f9;
-    margin-left: 40vh;
-    margin-top: -80vh;
+    margin-left: 50vh;
+    margin-top: -10vh;
     font-size: 5vh;
     
   }
