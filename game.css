@@ -609,39 +609,47 @@ main{
   color: black;
 }
 
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-height: 739px) {
   .gradient-border {
-    width: 36vh;
-    height: 36vh;
-    margin-left: 63vh;
+    width: 45vh;
+    height: 45vh;
+    margin-left: 70vh !important;
+    bottom: 0vh;
   }
   .check{
     right: 1vh;
-    width: 50vh;
+    width: 58vh;
     font-size: 25px;
-    bottom: 25vh;
-    right: 7vh;
+    bottom: 30vh !important;
+    right: 10vh !important;
+  }
+  .help-button{
+    bottom: 17vh;
+  }
+  .text-copy{
+    margin-top: -10vh !important;
   }
 }
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-height: 1024px) {
 .gradient-border {
   width: 31.5vh;
   height: 31.5vh;
   margin-left: 50vh;
+  margin-bottom: -12vh;
   
 }
-.logo-container{
-  margin: auto;
-}
+
 .help-button{
-  bottom: 13vh;
+  bottom: 1vh;
 }
 .check{
   right: 1vh;
   width: 40vh;
   font-size: 20px;
-  bottom: 12vh;
+  bottom: 27vh !important;
 }
-
+.logo-container{
+  margin-right: -12vh !important;
+}
 
 }
