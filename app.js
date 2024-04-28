@@ -16,12 +16,11 @@ function shuffleContainer() {
     shuffleContainer()
 } */
 
+
 shuffe.addEventListener("click",()=>{
     shuffleContainer()
 })
 
-
-const emptyBox = document.querySelector(".boxEmpty")
 
 boxes1.forEach(box => {
     box.addEventListener("click", (event) => {
@@ -33,14 +32,15 @@ boxes1.forEach(box => {
         emptyBox.textContent = clickedBox;
         emptyBox.classList.remove("boxEmpty")
         emptyBox.classList.add("box")
-
+        
     });
 });
+
 let answer=false
 const checkButton = document.querySelector(".check")
 boxes1.forEach(box =>{
     checkButton.addEventListener("click",()=>{
-        if (box.id === box.textContent && emptyBox.id === emptyBox.textContent){
+        if (box.id === box.textContent && emptyBox1.id === emptyBox1.textContent){
             answer=true 
         }
         else{
