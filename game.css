@@ -609,7 +609,7 @@ main{
   color: black;
 }
 
-@media only screen and (max-height: 739px) {
+@media only screen and (max-width: 1440px) {
   .gradient-border {
     width: 45vh;
     height: 45vh;
@@ -630,23 +630,24 @@ main{
     margin-top: -10vh !important;
   }
 }
-@media only screen and (max-height: 1024px) {
+@media only screen and (max-width: 1280px) {
 .gradient-border {
   width: 31.5vh;
   height: 31.5vh;
-  margin-left: 50vh;
+  margin-left: 40vh !important;
   margin-bottom: -12vh;
   
 }
 
 .help-button{
-  bottom: 1vh;
+  bottom: -1vh;
+  left: 6vh;
 }
 .check{
   right: 1vh;
   width: 40vh;
   font-size: 20px;
-  bottom: 27vh !important;
+  bottom: 33vh !important;
 }
 .logo-container{
   margin-right: -12vh !important;
