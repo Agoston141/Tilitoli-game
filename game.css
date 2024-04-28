@@ -158,10 +158,13 @@ body{
 main{
   margin-top: 15vh;
 }
-#_{
+.boxEmpty{
+    display: flex;
     background-color: white;
+    justify-content: center;
+    align-items: center;
 }
-.box,.boxEmpty{
+.box{
     background-color: #149ebdb0;
     border: 1px solid black;
     height: 80px;

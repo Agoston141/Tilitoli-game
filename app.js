@@ -12,27 +12,48 @@ function shuffleContainer() {
     boxes.forEach((box, index) => box.textContent = contents[index]);
 }
 
-window.onload=()=>{
+/* window.onload=()=>{
     shuffleContainer()
-}
+} */
 
 shuffe.addEventListener("click",()=>{
     shuffleContainer()
-    emptyBox.textContent=""
 })
+
 
 const emptyBox = document.querySelector(".boxEmpty")
 
-
 boxes1.forEach(box => {
-    
     box.addEventListener("click", (event) => {
+        const emptyBox = document.querySelector(".boxEmpty")
         const clickedBox = event.target.textContent;
         box.textContent = ""
+        event.target.classList.remove("box")
+        event.target.classList.add("boxEmpty")
         emptyBox.textContent = clickedBox;
-
+        emptyBox.classList.remove("boxEmpty")
+        emptyBox.classList.add("box")
 
     });
 });
+let answer=false
+const checkButton = document.querySelector(".check")
+boxes1.forEach(box =>{
+    checkButton.addEventListener("click",()=>{
+        if (box.id === box.textContent && emptyBox.id === emptyBox.textContent){
+            answer=true 
+        }
+        else{
+            answer=false
+        }
+    }
+)})
 
-
+checkButton.addEventListener("click",()=>{
+    if (answer==true){
+        alert("Helyes megoldás")
+    }
+    else{
+        alert("Hibás megoldás")
+    }
+})
