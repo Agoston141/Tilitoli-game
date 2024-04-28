@@ -167,11 +167,13 @@ body{
     background-color: red;
     width: 80vh;
     height: 50vh;
-    transform: scaleX(1.3); /* A szélesség 110%-ra növeli */
+    transform: scaleX(1.33); /* A szélesség 110%-ra növeli */
     
 }
 #kartya1{
     background-color: red;
-    transform: scaleX(1.3); /* A szélesség 110%-ra növeli */
+    width: 80vh;
+    height: 50vh;
+    transform: scaleX(1.33); /* A szélesség 110%-ra növeli */
     
 }
