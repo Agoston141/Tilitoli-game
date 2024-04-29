@@ -161,6 +161,7 @@ main{
     background-color: white;
     justify-content: center;
     align-items: center;
+    border-radius: 5%;
 }
 .box{
     background-color: #149ebdb0;
