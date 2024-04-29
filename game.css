@@ -391,7 +391,6 @@ main{
     0px 0px 0.5em 0px var(--glow-color);
   animation: border-flicker 2s linear infinite;
 }
-
 .check-txt {
   float: left;
   margin-right: -0.8em;

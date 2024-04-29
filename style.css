@@ -123,13 +123,15 @@ body{
     }
     #kartya2{
         background-color: red;
-        width: 50vh !important;
+        width: 45vh !important;
         height: 50vh !important;
         transform: scaleX(1.0) !important; /* A szélesség 110%-ra növeli */
         
     }
     #kartya1{
         background-color: red;
+        width: 45vh !important;
+        height: 50vh !important;
         transform: scaleX(1.0) !important; /* A szélesség 110%-ra növeli */
         
     }
