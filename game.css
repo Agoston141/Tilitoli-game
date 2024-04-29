@@ -8,11 +8,9 @@
     stroke-width: 3px;
     stroke-dashoffset: 0%;
     animation: stroke-offset 5.5s infinite linear;
-    margin-top: -5vh;
-    
-    
-    
+    margin-top: -5vh;   
 }
+
 .logo-container {
 	position: relative;
     margin-bottom: -15vh;
@@ -109,7 +107,7 @@
 }
 body{
     overflow: hidden;
-    background-color: #8a858593;
+    background-color: #423e3e93;
 }
 /*Gomb villogasa*/
 @keyframes blink {
@@ -391,6 +389,7 @@ main{
     0px 0px 0.5em 0px var(--glow-color);
   animation: border-flicker 2s linear infinite;
 }
+
 .check-txt {
   float: left;
   margin-right: -0.8em;
