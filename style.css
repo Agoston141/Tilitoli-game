@@ -82,7 +82,7 @@ main{
 }
 body{
     overflow: hidden;
-    background-color: #8a858593;
+    background-color: #423e3e93;
 }
 /*Gomb villogasa*/
 @keyframes blink {
@@ -114,6 +114,7 @@ body{
 }
 .card{
     height: 60vh;
+    background-color: #f1f0f093;
     
 }
 @media only screen and (max-width: 1440px) {
@@ -123,15 +124,13 @@ body{
     }
     #kartya2{
         background-color: red;
-        width: 45vh !important;
+        width: 50vh !important;
         height: 50vh !important;
         transform: scaleX(1.0) !important; /* A szélesség 110%-ra növeli */
         
     }
     #kartya1{
         background-color: red;
-        width: 45vh !important;
-        height: 50vh !important;
         transform: scaleX(1.0) !important; /* A szélesség 110%-ra növeli */
         
     }
