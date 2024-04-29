@@ -610,7 +610,7 @@ main{
 .black{
   color: black;
 }
-
+/*Lemeretez kepernyore*/
 @media only screen and (max-width: 1440px) {
   .gradient-border {
     width: 45vh;
