@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Jersey+10+Charted&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');
 
+/*Oldal cim logo*/
 #page-logo{
     text-align: center;
     justify-content: center;
@@ -31,7 +32,7 @@
 		animation: clip-path-reveal-1 3s ease forwards;
 	}
 }
-
+/*Animaciok*/
 @keyframes line-animation {
 	0% { transform: scaleX( 0 ); }
 	15% { transform: scaleX( 0 ); }
@@ -45,7 +46,7 @@
 	0%, 25% { clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%); }
 	50% { clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%); }
 }
-
+/*Animaciok vege*/
 
 main{
     display: flex;
@@ -58,6 +59,7 @@ main{
 
     
 }
+/*Start gomb*/
 #a1szv{
     text-decoration: none !important;
     color: black !important;
@@ -117,6 +119,7 @@ body{
     background-color: #f1f0f093;
     
 }
+/*Lemeretez kepernyore*/
 @media only screen and (max-width: 1440px) {
     .card {
         height: 70vh;
