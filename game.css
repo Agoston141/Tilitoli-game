@@ -646,7 +646,7 @@ main{
   left: 6vh;
 }
 .check{
-  right: 1vh;
+  right: 7vh !important;
   width: 40vh;
   font-size: 20px;
   bottom: 33vh !important;
@@ -654,5 +654,7 @@ main{
 .logo-container{
   margin-right: -12vh !important;
 }
-
+.button{
+  left: 3vh;
+}
 }
