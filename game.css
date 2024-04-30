@@ -636,7 +636,7 @@ main{
 .gradient-border {
   width: 31.5vh;
   height: 31.5vh;
-  margin-left: 40vh !important;
+  margin-left: 44vh !important;
   margin-bottom: -12vh;
   
 }
@@ -646,7 +646,7 @@ main{
   left: 6vh;
 }
 .check{
-  right: 7vh !important;
+  right: 3vh !important;
   width: 40vh;
   font-size: 20px;
   bottom: 33vh !important;
